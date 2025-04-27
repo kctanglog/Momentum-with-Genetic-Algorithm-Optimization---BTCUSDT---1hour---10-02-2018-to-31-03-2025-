@@ -1,6 +1,5 @@
 ### Here is the Introduction to Genetic Algorithms (GA).
 
-
 # Genetic Algorithms (GAs) in Optimization 🧬📈
 
 ## Main Steps 🚀
@@ -11,9 +10,3 @@
 4. **Crossover (Recombination)** 🔗  
 5. **Mutation** 🔄  
 6. **Generations and Convergence** 🔁  
-
----
-
-Genetic Algorithms combine evolution-inspired techniques 🌱 with optimization 📈 to solve complex problems in finance, science, and machine learning.
-
-Happy optimizing! 🚀
