@@ -1,4 +1,7 @@
 # 🧬📈 **Momentum Backtester - Genetic Algorithm (GA) Optimization**  
+
+--
+
 **Data**
 BTCUSDT - 1 Hour Interval (10-02-2018 to 31-03-2025)
 
