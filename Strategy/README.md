@@ -1,28 +1,23 @@
 # 🎯 **Momentum_Backtester - Genetic Algorithm Optimization**  
-**BTCUSDT - 1 Hour Interval (10-02-2018 to 31-03-2025)**
+**BTCUSDT - 1 Hour Interval (10-02-2018 to 31-03-2025**)
 
 ---
 
-## 🪙 **Project Overview**  
-This project showcases a **Momentum-Based Trading Strategy**, optimized using **Brute Force** and **Genetic Algorithm (GA)** techniques.  
-It is designed for **professional traders** and **quantitative finance enthusiasts** to assess and fine-tune trading parameters for maximum profitability.
+## 📖 **Project Overview**  
+This project demonstrates a **Momentum-Based Trading Strategy**, optimized using **Brute Force** and **Genetic Algorithm (GA)** methods.  
+Designed for **professional traders** and **quantitative analysts**, this tool helps fine-tune momentum parameters to maximize profitability through robust backtesting and visualization.
 
 ---
 
 ## 🚀 **Workflow**  
 
 1. **📊 Fetch Historical Data**  
-   Pull BTCUSDT candlestick data (OHLCV) from Binance API for the specified time range and interval.  
+   Retrieve BTCUSDT candlestick data (OHLCV) from Binance API for the specified time range and interval.  
 
 2. **📈 Backtest the Strategy**  
-   Simulate the performance of momentum strategies using the `Momentum_Backtester` class.
-
-3. **🧬 Optimize Parameters**  
-   - **Brute Force**: Screen all possible momentum values within a given range.  
-   - **Genetic Algorithm**: Use evolution-based optimization to find the **optimal momentum value** efficiently.
-
-4. **📉 Visualize Results**  
-   Generate visualizations of strategy performance, heatmaps, and GA optimization progress.  
+   Simulate and analyze momentum-based strategies, including:  
+   - **Optimization**: Use **Brute Force** or **Genetic Algorithm** techniques to identify the optimal momentum parameter.  
+   - **Visualization**: Compare cumulative returns and strategy performance through performance plots, heatmaps, and GA progress charts.  
 
 ---
 
@@ -32,29 +27,29 @@ It is designed for **professional traders** and **quantitative finance enthusias
   Fetch and preprocess data from Binance API.  
 
 - **⚙️ Vectorized Backtesting**:  
-  Backtest momentum-based strategies for rapid performance evaluation.
+  Efficiently simulate trading strategies in a vectorized manner.  
 
-- **📊 Parameter Optimization**:  
-  - **Brute Force**: Test each momentum value exhaustively.  
-  - **Genetic Algorithm**: Use evolutionary techniques to find the best momentum parameter.  
+- **📊 Momentum Optimization**:  
+  - **Brute Force**: Test all possible momentum values exhaustively.  
+  - **Genetic Algorithm**: Leverage evolution-based optimization for high-dimensional parameter tuning.  
 
-- **📈 Visualizations**:  
-  - Performance comparison: **Cumulative Returns vs. Strategy Performance**.  
-  - Heatmaps for brute force optimization results.  
-  - **GA Progress Visualization**: Plot performance across generations.  
+- **📉 Visualizations**:  
+  - Strategy performance comparison: **Cumulative Returns vs. Strategy Performance**.  
+  - Heatmaps for Brute Force optimization results.  
+  - **GA Progress Visualization**: Track performance improvements across generations.  
 
 ---
 
 ## 📂 **File Structure**  
 
-- **`Momentum_Backtester_GA.py`**  
-  The main Python class for backtesting and optimization.  
+> **`Momentum_Backtester_GA.py`**  
+> The main Python class for backtesting and optimization.  
 
-- **`Momentum_Backtester_CodeRunner_GA.ipynb`**  
-  Jupyter Notebook for executing backtests and optimizations.  
+> **`Momentum_Backtester_CodeRunner_GA.ipynb`**  
+> Jupyter Notebook for executing backtests and optimizations.  
 
-- **`Data/`**  
-  Directory for storing historical data fetched from Binance API.  
+> **`Data/`**  
+> Directory for storing historical data fetched from Binance API.  
 
 ---
 
@@ -62,23 +57,23 @@ It is designed for **professional traders** and **quantitative finance enthusias
 
 ### **Brute Force Optimization**  
 - **🏆 Best Momentum:** `747`  
-- **💰 Best Performance:** `1,248,957.56`  
+- **📊 Best Performance:** `1,248,957.56`  
 - **📈 Out-Performance:** `1,157,473.84`  
 
 ### **Genetic Algorithm Optimization**  
 - **🏆 Optimal Momentum Found:** `793`  
-- **💰 Performance:** `1,062,386.03`  
+- **📊 Performance:** `1,062,386.03`  
 
 ---
 
 ### **Key Insights**  
-The **Genetic Algorithm** delivers results close to Brute Force, demonstrating its **efficiency** for optimizing high-dimensional trading strategies with less computational effort.
+The **Genetic Algorithm** delivers results close to Brute Force, proving its **efficiency** for optimizing high-dimensional trading strategies with far less computational expense.
 
 ---
 
 ## 🛠 **Requirements**  
 
-- Python 3.8+  
+- **Python**: 3.12.7  
 - Libraries:
   - `numpy`
   - `pandas`
