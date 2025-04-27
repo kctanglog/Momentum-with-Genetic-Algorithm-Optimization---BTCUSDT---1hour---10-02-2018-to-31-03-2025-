@@ -1,6 +1,6 @@
 # Genetic Algorithms (GAs) in Optimization 🧬📈
 
-Explore the fundamentals of **Genetic Algorithms (GAs)** in the **_Genetic Algorithms (GAs).ipynb_** notebook.
+Explore the fundamentals of **Genetic Algorithms (GAs)** in the **Genetic Algorithms (GAs).ipynb** notebook.
 
 ## Key Steps 🚀
 1. **Population Representation** 👥  
