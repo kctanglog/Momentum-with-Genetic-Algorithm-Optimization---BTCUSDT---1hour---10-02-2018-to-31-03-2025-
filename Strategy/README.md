@@ -1,11 +1,11 @@
 # 🎯 **Momentum_Backtester - Genetic Algorithm Optimization**  
-**BTCUSDT - 1 Hour Interval (10-02-2018 to 31-03-2025**)
+**BTCUSDT - 1 Hour Interval (10-02-2018 to 31-03-2025)**
 
 ---
 
 ## 📖 **Project Overview**  
 This project demonstrates a **Momentum-Based Trading Strategy**, optimized using **Brute Force** and **Genetic Algorithm (GA)** methods.  
-Designed for **professional traders** and **quantitative analysts**, this tool helps fine-tune momentum parameters to maximize profitability through robust backtesting and visualization.
+It helps fine-tune momentum parameters to maximize profitability through robust backtesting and visualization.
 
 ---
 
@@ -17,7 +17,7 @@ Designed for **professional traders** and **quantitative analysts**, this tool h
 2. **📈 Backtest the Strategy**  
    Simulate and analyze momentum-based strategies, including:  
    - **Optimization**: Use **Brute Force** or **Genetic Algorithm** techniques to identify the optimal momentum parameter.  
-   - **Visualization**: Compare cumulative returns and strategy performance through performance plots, heatmaps, and GA progress charts.  
+   - **Visualization**: Compare cumulative returns and strategy performance through performance plots, **heatmaps**, and GA progress charts.  
 
 ---
 
@@ -35,21 +35,21 @@ Designed for **professional traders** and **quantitative analysts**, this tool h
 
 - **📉 Visualizations**:  
   - Strategy performance comparison: **Cumulative Returns vs. Strategy Performance**.  
-  - Heatmaps for Brute Force optimization results.  
-  - **GA Progress Visualization**: Track performance improvements across generations.  
+  - **Heatmaps**: Visualize optimization results for Brute Force searches.  
+  - **GA Progress**: Track performance improvements across generations.  
 
 ---
 
 ## 📂 **File Structure**  
 
-> **`Momentum_Backtester_GA.py`**  
-> The main Python class for backtesting and optimization.  
+- **`Momentum_Backtester_GA.py`**  
+  The main Python class for backtesting and optimization.  
 
-> **`Momentum_Backtester_CodeRunner_GA.ipynb`**  
-> Jupyter Notebook for executing backtests and optimizations.  
+- **`Momentum_Backtester_CodeRunner_GA.ipynb`**  
+  Jupyter Notebook for executing backtests and optimizations.  
 
-> **`Data/`**  
-> Directory for storing historical data fetched from Binance API.  
+- **`Data/`**  
+  Directory for storing historical data fetched from Binance API.  
 
 ---
 
