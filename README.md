@@ -97,7 +97,7 @@ The **Genetic Algorithm (GA)** demonstrates the following advantages:
 
 - **Scalability**:  
   While this project focuses on a single parameter, GA is highly effective for **high-dimensional optimization problems**, making it suitable for strategies with multiple parameters or large data sets.  
-  *(This advantage can be explored in future projects.)*  
+  
 
 ---
 
