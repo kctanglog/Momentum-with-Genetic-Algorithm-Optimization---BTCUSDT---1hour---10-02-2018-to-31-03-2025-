@@ -1,6 +1,6 @@
-Here is the Introduction to Genetic Algorithms (GA).
-
 # Genetic Algorithms (GAs) in Optimization 🧬📈
+
+Here is the Introduction to Genetic Algorithms (GA).
 
 ## Main Steps 🚀
 
