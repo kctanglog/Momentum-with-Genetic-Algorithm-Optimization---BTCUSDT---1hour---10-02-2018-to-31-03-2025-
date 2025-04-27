@@ -8,6 +8,5 @@ Explore the fundamentals of Genetic Algorithms (GAs) in the **Genetic Algorithms
 3. **Selection** 🏆  
 4. **Crossover** 🔗  
 5. **Mutation** 🔄  
-6. **Generations & Convergence** 🔁  
+6. **Generations & Convergence** 🔁
 
-Unlock the power of evolution-inspired optimization today! 🌱📈
