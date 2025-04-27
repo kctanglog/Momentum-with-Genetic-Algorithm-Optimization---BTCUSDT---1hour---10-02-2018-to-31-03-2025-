@@ -1,4 +1,4 @@
-# 🎯 **Momentum_Backtester - Genetic Algorithm Optimization**  
+# 🧬📈 **Momentum Backtester - Genetic Algorithm (GA) Optimization**  
 **BTCUSDT - 1 Hour Interval (10-02-2018 to 31-03-2025)**
 
 ---
@@ -17,7 +17,7 @@ It helps fine-tune momentum parameters to maximize profitability through robust 
 2. **📈 Backtest the Strategy**  
    Simulate and analyze momentum-based strategies, including:  
    - **Optimization**: Use **Brute Force** or **Genetic Algorithm** techniques to identify the optimal momentum parameter.  
-   - **Visualization**: Compare cumulative returns and strategy performance through performance plots, **heatmaps**, and GA progress charts.  
+   - **Visualization**: Compare cumulative returns and strategy performance through performance plots, **heatmaps**, and **Genetic Algorithm (GA) progress charts**.  
 
 ---
 
@@ -36,7 +36,7 @@ It helps fine-tune momentum parameters to maximize profitability through robust 
 - **📉 Visualizations**:  
   - Strategy performance comparison: **Cumulative Returns vs. Strategy Performance**.  
   - **Heatmaps**: Visualize optimization results for Brute Force searches.  
-  - **GA Progress**: Track performance improvements across generations.  
+  - **Genetic Algorithm (GA) progress charts**: Track performance improvements across generations.  
 
 ---
 
@@ -55,6 +55,8 @@ It helps fine-tune momentum parameters to maximize profitability through robust 
 
 ## 📊 **Results**  
 
+### **Initial Capital: 10,000**  
+
 ### **Brute Force Optimization**  
 - **🏆 Best Momentum:** `747`  
 - **📊 Best Performance:** `1,248,957.56`  
@@ -67,7 +69,20 @@ It helps fine-tune momentum parameters to maximize profitability through robust 
 ---
 
 ### **Key Insights**  
-The **Genetic Algorithm** delivers results close to Brute Force, proving its **efficiency** for optimizing high-dimensional trading strategies with far less computational expense.
+
+The **Genetic Algorithm (GA)** demonstrates the following advantages:  
+
+1. **Efficiency**:  
+   Unlike Brute Force, which exhaustively tests every momentum value, GA uses an evolution-based approach to **quickly converge** on the optimal parameter, significantly reducing computational time and expense.  
+
+2. **Scalability**:  
+   GA is highly effective for **high-dimensional optimization problems**, making it suitable for strategies involving multiple parameters or large data sets.  
+
+3. **Robustness**:  
+   The algorithm avoids getting stuck in **local optima** by using random mutations and crossover operations, ensuring a more global search for the best parameters.
+
+4. **Practicality**:  
+   The results produced by GA are **comparable to Brute Force**, proving its reliability for real-world trading applications.  
 
 ---
 
